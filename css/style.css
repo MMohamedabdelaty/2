@@ -701,7 +701,10 @@ footer h5 {
     .chefs {
         margin-bottom: 10px;
     }
-    
+    .grab {
+        width: 100%;
+        text-align: center;
+    }
     
 }
 
@@ -715,11 +718,6 @@ footer h5 {
         margin-bottom: 0;
         margin-left: 0;
         padding-left: 0; 
-    }
-
-    .grab {
-        flex-direction: column;
-        text-align: center;
     }
     
     div.hero-l {
@@ -737,9 +735,8 @@ footer h5 {
         flex-direction: column;
         margin: auto;
     }
-    section.grab {
-        flex-direction: column;
-        margin: auto;
+    .grab {
+        text-align: center;
     }
     .ourstory {
         flex-direction: column;
