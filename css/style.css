@@ -696,7 +696,6 @@ footer h5 {
         flex-wrap: wrap;
         gap: 4%;
     }
-
     div.blog-card {
         width: 48%;
         margin-bottom: 32px;
@@ -704,7 +703,14 @@ footer h5 {
     .chefs {
         margin-bottom: 10px;
     }
-    
+    .ca {
+        width: 100%;
+        align-items: center;
+    }
+    .grab {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
