@@ -735,9 +735,12 @@ footer h5 {
     
     ul.ca {
         flex-direction: column;
-        margin: 0 auto;
+        margin: auto;
     }
-
+    section.grab {
+        flex-direction: column;
+        margin: auto;
+    }
     .ourstory {
         flex-direction: column;
     }
