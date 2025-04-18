@@ -595,9 +595,10 @@ footer h5 {
 }
 
 /* Responsive Style*/
+
 @media screen and (max-width: 1120px) {
     h1 {
-        font-size: 48px;
+        font-size: 30px;
     }
 
     h2 {
@@ -606,73 +607,55 @@ footer h5 {
 
     h3 {
         font-size: 32px;
-        line-height: 48px;
     }
 
     h4 {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     h5 {
         font-size: 24px;
     }
-
     h6 {
         font-size: 20px;
     }
-
+    .mo.maxwidth p {
+        font-size: 20px;
+    }
+    
     .header-r nav,
     .header-action {
         display: none;
     }
-
     .responsive-menu {
         display: block;
     }
-
-
-    header {
-        padding: 16px;
+    .responsive-menu img {
+        max-width: 24px;
     }
-
+    .grabquarter {
+        justify-content: center;
+    }
     .maxwidth {
         padding: 16px;
     }
-
     ul.cards {
         display: none;
     }
-
+    a.shopblend {
+       display: none;
+    }
     .our-menu {
         padding: 64px 0;
     }
 
-    section.offer {
-        padding: 0 16px;
+    section.data {
+        padding: 0px;
     }
-
-    .footer-r {
-        padding-left: 0;
-        flex-direction: column;
-    }
-
-    .reviews div.maxwidth {
-        flex-direction: column;
-        gap: 64px;
-    }
-
-    .reviews-l,
-    .reviews-r {
-        width: 100%;
-    }
-
-    .reviews h4 {
-        text-align: center;
-    }
-
     .reviews-r div.submit,
     .mainbranch-r div.submit {
         justify-content: center;
+        gap: 64px;
     }
 
     footer {
@@ -685,8 +668,10 @@ footer h5 {
         margin-bottom: 32px;
     }
 
-    .footer-r {
-        width: 50%;
+    .footer-l,
+    .footer-r,
+    .footer-j {
+        width: 100%;
     }
 
     section.content div.blog-grid {
@@ -698,39 +683,69 @@ footer h5 {
         width: 48%;
         margin-bottom: 32px;
     }
-    .chefs {
-        margin-bottom: 10px;
+    .ca {
+        width: 100%;
+        align-items: center;
     }
     .grab {
         width: 100%;
         text-align: center;
     }
-    
-}
-
-@media screen and (max-width: 768px) {
+    .footer-t {
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    .h {
+        padding-left: 20px;
+    }
+    input[type="submit"] {
+       display: none;
+    }
+    div.nl {
+        display: none;
+    }
     .hero {
-        background-size: cover;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 768px) {
+    section.hero  {
+        background-size: contain;
             gap: 30px;
     }
-    .hero h4{
-        font-size: 30px;
-        margin-bottom: 0;
-        margin-left: 0;
-        padding-left: 0; 
+    img {
+        width: 100%;
     }
-    
     div.hero-l {
         margin-top: 10vh;
         width: 80%;
         padding-left: 0;
+    }
+    
+    div.hero-l h4 {
+        font-size: 30px;
+        margin-bottom: 0;
+        margin-left: 0;
+        padding-left: 0;
+        justify-content: center !important;
     }
     div.shopblend{
         width: 30%;
         margin-top: 38vh;
         margin-bottom: 40px;
     }
-    
+    a.shopblends {
+        background: #fff7d8;
+        font-size: 18px;
+        font-family: "Roboto", Helvetica, sans-serif;
+        padding: 10px 20px ;
+        color: #0C0102;
+        border: 1px solid #0C0102;
+    }
+    .mo p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
     ul.ca {
         flex-direction: column;
         margin: auto;
@@ -738,80 +753,94 @@ footer h5 {
     .grab {
         text-align: center;
     }
-    .ourstory {
+    div.footer-l, 
+    .footer-r, 
+    .footer-j {
+        font-size: 16px;
+    }
+    .footer-j {
+        margin-bottom: 50px;
+    }
+    section.content div.blog-grid {
         flex-direction: column;
-    }
-    .ourstory img {
-        width: 100%;
-        border-radius: 16px;
-    }
-    
-    .masterchef {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-    .masterchef img {
-        border-radius: 50%;
-        aspect-ratio: 1 / 1;
-        object-fit: contain;
-    }
-    .cardss {
-        flex-basis: 100%;
-        margin-bottom: 2%;
-    }
-    .hero-l,
-    .hero-r {
-        width: 100%;
-        text-align: center;
-
-    }
-
-    .footer-r {
-        width: 100%;
-        margin: 0;
-    }
-    .footer {
-        flex-direction: column;
-        padding-left: 0px;
     }
 
     div.blog-card {
         width: 100%;
     }
-
-    .blend {
-       padding-left: 20px;
+    ul {
+        width: 100%;
     }
-    .ww {
-       padding-left: 20px;
+    section.our-menu {
+        padding-left: 40px;
     }
-
-    .shopAll a {
-        padding: 20px 70px;
+    
+    section.LocationHours,
+    section.subrib{
+        flex-direction: column;
+        width: 100%;
     }
-
-    .hero-r {
-       display: none; 
+    .h {
+        flex-direction: column;
     }
-
+    input[type="submit"] {
+        align-items: center;
+        background-color: #0C0102;
+        color: #f3f2ee;
+        font-size: 20px;
+        font-family: "Rubik", Helvetica, sans-serif;
+        padding: 20px 140px;
+        border: 1 solid #0C0102;
+        align-items: center;
+        display: inline-block;
+        gap: 0px !important;
+    }
+    div.h input[type="email"] {
+        margin-top: 0px;
+        font-size: 16px;
+        background-color: #d2e1ee;
+        border-right: 2px solid #0C0102;
+        border-top: 2px solid #0C0102;
+        border-bottom: 2px solid #0C0102;
+        padding: 20px 120px;
+        text-indent: 0px;
+        gap: 0px !important;
+     
+    }
     div.i ul.policy-l {
         flex-direction: column;
         gap: 32px;
         text-align: center;
 
     }
-
     div.i ul.policy-r {
         flex-direction: column;
         gap: 20px;
 
     }
-}
-@media screen and (max-width: 540px) {
-    ul.menuList li {
-        flex: 1 100%;
+    div.kl {
+        flex-direction: column;
+        padding-left: 5vh;
     }
-    ul.blogList li {
-        flex: 1 100%;
+    a.nn,
+    a.bi {
+        font-size: 18px;
     }
+    div.lj {
+        margin-top: 8vh;
+        margin-left: 5vh;
+    }
+    summary {
+        font-size: 15px;
+        gap: 6px;
+    }
+   div.cart li.cart a {
+    color: #0C0102;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+   }
+    a.openmenu {
+    color: #0C0102;
+   }
 }
