@@ -717,6 +717,11 @@ footer h5 {
         padding-left: 0; 
     }
 
+    .grab {
+        flex-direction: column;
+        text-align: center;
+    }
+    
     div.hero-l {
         margin-top: 10vh;
         width: 80%;
@@ -769,8 +774,6 @@ footer h5 {
         flex-direction: column;
         padding-left: 0px;
     }
-
-    
 
     div.blog-card {
         width: 100%;
