@@ -709,6 +709,9 @@ footer h5 {
     .hero {
         margin-top: 0px;
     }
+    .grab {
+        display: block;
+    }
 }
 @media screen and (max-width: 768px) {
     section.hero  {
@@ -753,7 +756,8 @@ footer h5 {
         margin: auto;
     }
     .grab {
-        text-align: center;
+        display: block;
+        
     }
     div.footer-l, 
     .footer-r, 
