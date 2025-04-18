@@ -41,7 +41,7 @@ $(document).ready(function(){
                 items: 2
             },
             800: {
-                items: 3
+                items: 1
             },
             1120: {
                 items: 4

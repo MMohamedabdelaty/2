@@ -740,7 +740,6 @@ footer h5 {
         flex-direction: column;
     }
     .grab {
-        text-align: center;
         flex-direction: column;
     }
     .ourstory {
@@ -814,7 +813,6 @@ footer h5 {
 }
 @media screen and (max-width: 800px) {
     .grab {
-        text-align: center;
         flex-direction: column;
     }
     ul.blogList li {
