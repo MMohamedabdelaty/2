@@ -286,7 +286,7 @@ li.order a:hover {
 .grab {
     background: #fff7d8;
     margin-top: 20rem;
-    display: flex;
+    text-align: center;
 }
 .grab h4 {
     text-align: center;
@@ -294,7 +294,8 @@ li.order a:hover {
 
 ul.ca {
     width: 100%;
-    max-width: 100%;
+    max-width: 100px;
+    display: inline-block;
     padding: 24px;
     font-weight: 700;
     color: #0C0102;
@@ -302,10 +303,11 @@ ul.ca {
     display: flex;
     gap: 50px;
 } 
+ 
 
 .grab li.kcards img {
-    width: 302px !important;
-    height: 302px;
+    width: 340px !important;
+    height: 340px;
     list-style: none;
 }
 
@@ -709,9 +711,6 @@ footer h5 {
     .hero {
         margin-top: 0px;
     }
-    .grab {
-        display: block;
-    }
 }
 @media screen and (max-width: 768px) {
     section.hero  {
@@ -753,11 +752,10 @@ footer h5 {
     }
     ul.ca {
         flex-direction: column;
-        display: block;
         margin: auto;
     }
     .grab {
-        display: block;
+        text-align: center;
     }
     div.footer-l, 
     .footer-r, 
