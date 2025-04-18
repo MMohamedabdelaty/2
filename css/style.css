@@ -293,7 +293,8 @@ li.order a:hover {
 
 ul.ca {
     width: 100%;
-    max-width: 100px;
+    max-width: 100%;
+    display: block;
     padding: 24px;
     font-weight: 700;
     color: #0C0102;
@@ -731,7 +732,6 @@ footer h5 {
     
     ul.ca {
         flex-direction: column;
-        margin: auto;
     }
     .grab {
         text-align: center;
